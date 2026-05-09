@@ -1,7 +1,7 @@
 arcade==2.6.17
 attrs==26.1.0
 cffi==2.0.0
-Pillow==9.3.0
+Pillow==12.2.0
 pycparser==3.0
 pyglet==2.0.dev23
 pymunk==6.4.0
