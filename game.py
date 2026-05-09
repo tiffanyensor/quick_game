@@ -133,8 +133,8 @@ class GameView(arcade.View):
         # add some bad guys, but not too close to player's initial start position
         for i in range(2):
             bad_guy = BadGuy()
-            bad_guy.center_x = random.choice([random.randrange(0, WINDOW_WIDTH/4), random.randrange(WINDOW_WIDTH*3/4, WINDOW_WIDTH)])
-            bad_guy.center_y = random.choice([random.randrange(0, WINDOW_HEIGHT/4), random.randrange(WINDOW_HEIGHT*3/4, WINDOW_HEIGHT)])
+            bad_guy.center_x = random.choice([random.randrange(0, int(WINDOW_WIDTH/4)), random.randrange(int(WINDOW_WIDTH*3/4), WINDOW_WIDTH)])
+            bad_guy.center_y = random.choice([random.randrange(0, int(WINDOW_HEIGHT/4)), random.randrange(int(WINDOW_HEIGHT*3/4), WINDOW_HEIGHT)])
             self.all_enemy_list.append(bad_guy)
 
         # add some fruit
